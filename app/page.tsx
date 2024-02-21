@@ -1,23 +1,9 @@
-import Head from 'next/head';
+import Header from './components/Header';
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-custom-light-gray">
-      <Head>
-        <title>Meow - Home</title>
-        <meta name="description" content="A mobile-friendly site for daily orthodontic training and tracking, with fun rewards for kids." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <header className="text-white py-3 bg-custom-light-blue">
-        <nav className="px-4">
-          <ul className="flex justify-around">
-            <li><a href="#daily-training" className="block text-sm hover:text-custom-sunshine-yellow">毎日のトレーニング</a></li>
-            <li><a href="#progress-tracker" className="block text-sm hover:text-custom-sunshine-yellow">進捗の追跡</a></li>
-            <li><a href="#rewards-collection" className="block text-sm hover:text-custom-sunshine-yellow">ご褒美コレクション</a></li>
-          </ul>
-        </nav>
-      </header>
+      <Header/>
 
       <main className="flex-grow">
         <div className="text-center p-6 bg-white">
