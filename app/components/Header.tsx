@@ -14,7 +14,7 @@ export default function Header() {
 
         {/* デスクトップビュー用のナビゲーション */}
         <nav className="hidden md:flex space-x-4">
-          <a href="#daily-training" className="hover:text-custom-sunshine-yellow">毎日のトレーニング</a>
+          <a href="/daily-training" className="hover:text-custom-sunshine-yellow">毎日のトレーニング</a>
           <a href="#progress-tracker" className="hover:text-custom-sunshine-yellow">がんばりをチェック！</a>
           <a href="#rewards-collection" className="hover:text-custom-sunshine-yellow">ごほうびをもらおう！</a>
           <a href="/login" className="hover:text-custom-sunshine-yellow">ログイン</a>
@@ -31,7 +31,7 @@ export default function Header() {
       {/* モバイルビュー用の展開メニュー */}
       {isOpen && (
         <div className="px-4 pb-3 space-y-1 md:hidden">
-          <a href="#daily-training" className="block hover:text-custom-sunshine-yellow">毎日のトレーニング</a>
+          <a href="/daily-training" className="block hover:text-custom-sunshine-yellow">毎日のトレーニング</a>
           <a href="#progress-tracker" className="block hover:text-custom-sunshine-yellow">がんばりをチェック！</a>
           <a href="#rewards-collection" className="block hover:text-custom-sunshine-yellow">ごほうびをもらおう！</a>
           <a href="/login" className="block hover:text-custom-sunshine-yellow">ログイン</a>
