@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 export default function Home() {
@@ -33,9 +34,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="text-center py-3 bg-gray-200">
-        <p>&copy; 2024 Meow. All rights reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }
